@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container
+{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+}
+
+
+.slider-wrapper
+{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.slider-wrapper img, .slider-wrapper .image
+{
+    height: 100%;
+}
+
+
+
+.prev i, .next i
+{
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+.nav
+{
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    position: absolute;
+    color: white;
+    bottom: 5%;
+}
+
+.nav i
+{
+    margin: 10px;
+}
+
+
+
+.nav i.active
+{
+    color: green;
+}
